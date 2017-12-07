@@ -1,5 +1,5 @@
 {
-  "name": "ralph-learning/spotify-wrapper-player",
+  "name": "ralph-learning-spotify-wrapper-player",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint",
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register ",
-    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch"
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch",
+    "start": "./node_modules/.bin/webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
